@@ -1,4 +1,4 @@
-const getPrimesNumbers = async (req, res) => {
+const getPrimesNumbers = (req, res) => {
 
     //get number from param
     const { number } = req.params;
@@ -73,5 +73,7 @@ const isPrime = (number) => {
 }
 
 module.exports = {
-    getPrimesNumbers
+    getPrimesNumbers,
+    bucleNumbers,
+    isPrime
 }

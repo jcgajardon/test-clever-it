@@ -3,7 +3,7 @@ const express = require("express");
 
 const node_env = process.env.NODE_ENV || "development";
 
-const port = process.env.PORT || 1337;
+const port = process.env.PORT || 3000;
 
 const bodyParser = require("body-parser");
 

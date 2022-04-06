@@ -4,7 +4,7 @@
   "description": "test numeros primos clever it",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --recursive test",
     "dev": "nodemon index.js",
     "start": "index.js"
   },
@@ -12,9 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "cors": "^2.8.5",
+    "chai": "^4.3.6",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "mocha": "^9.2.2",
     "nodemon": "^2.0.15"
   }
 }
