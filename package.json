@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --recursive test",
     "dev": "nodemon index.js",
-    "start": "index.js"
+    "start": "node index.js"
   },
   "author": "Juan Gajardo",
   "license": "ISC",
